@@ -1,0 +1,182 @@
+/*navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand"
+*/
+
+
+
+*  {
+    box-sizing: border-box;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    
+  
+    }
+
+
+body {
+    background-image: url("../imgs/dust_scratches.png");
+    margin-bottom: 60px;
+    }
+
+.container-fluid {
+    background-color: white;
+    border-bottom: 2px solid red;
+  
+}
+
+.navbar-header {
+    background: red;
+    margin-left: 170px;
+
+    
+}
+
+
+
+#name {
+    background-color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    float: left;
+    margin-left: 170px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.navbar-right {
+    background: none;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    color: gray;
+    margin-right: 170px;
+}
+
+.container {
+    background-color: lightgray;
+    border: none;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+
+#pic1 {
+    height: 300px;
+    width: 300px;
+    margin: 0px 10px 10px 0px;
+    position: relative;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: darkgray;
+    padding-top: 10px;
+    font-size: 14px;
+   
+     }
+
+     /* is this needed?*/
+  .container1 .text-muted {
+    margin: 0px 0;
+  
+  }
+
+
+  /* begin css for Contact page */
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  
+
+  
+
+
+
+
+.col-md-4 {
+    margin: 0 auto;
+}
+
+.col-md-6 {
+    margin: 0 auto;
+}
+#project-area {
+    background: green;
+}
+
+#portfolio-title {
+    border-bottom: 1px solid gray;
+    margin-left: 15px;
+}
+
+.portfolio-pic {
+    margin: 15px 25px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+#sidebar-title {
+    margin-top: 0px;
+    margin-left: 10px;
+    border-bottom: 1px solid gray;
+}
+#sidebar {
+    background: orange;
+    padding: 10px 15px 15px 15px;
+    margin: 0 auto;
+}
+
+.sidebar-pic {
+    height: 50px;
+    width: 50px;
+}
+
+#img {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding: 25px;
+   
+}
+  
+  .topnav a  {
+      width: 40px;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
